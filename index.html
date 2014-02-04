@@ -1,0 +1,37 @@
+<head>
+  <title>some</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  
+</body>
+
+<template name="layout">
+  {{> yield 'header'}}
+  {{> yield}}
+  {{> yield 'footer'}}
+</template>
+
+
+<template name="home">
+  <h1>Home</h1>
+  {{> flexBoxWrap}} 
+</template>
+
+<template name="features">
+  <h1>Features</h1>
+</template>
+
+<template name="contact">
+  <h1>Contact</h1>
+  {{> contacts2}}
+</template>
+
+<template name="myHeader">
+  <h1>My Header</h1>  
+</template>
+
+<template name="myFooter">
+  <h1>My Footer</h1>  
+</template>
