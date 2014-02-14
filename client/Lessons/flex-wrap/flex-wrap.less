@@ -1,22 +1,117 @@
 @import "../../variables.lessimport";
 
 .flex-container {
-  color: @alizarin;
+  color: gray;
   font-family: @main-font;
+  margin:1em 0;
+  border:1px solid #333;
+  display:flex;
+
+  flex-flow:row wrap;
+
+.flex1 {
+  flex:1 1 0px;
+}
+.flex2 {
+  flex:1 1 0px;
+}
+.flex3 {
+  flex:1 1 0px;
+}
+
+
 
   .title {
-    font-weight: 300; 
+    font-weight: 100; 
     // font-size: 2em;
-    transition: all .5s;
-    transition-timing-function: cubic-bezier(.09,.95,.88,.01);
-    transform: translate3d(0, 0 ,0);
-
-    &:hover {
-      // font-size: 3em;
-      transform: translate3d(0, 100px , 0);
-      font-weight: 700;
-    }
-  }
-
+   text-align: center;
 
 }
+}
+
+//
+//
+//      STYLES FROM LYNDA.com
+//               exercise files
+//
+
+
+/*basic styles*/
+html, body {
+  margin: 0;
+}
+
+body {
+  font: 100% Lato, Helvetica, sans-serif;
+  background: white;
+}
+article, aside, section, nav, figure, header, footer {
+  display: block;
+}
+h1, h2, h3 {
+  font-size: 2.4em;
+  font-weight: normal;
+  font-family: LatoLight, Helvetica, sans-serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  color: #575451;
+  margin: 0;
+  line-height: 1;
+}
+h1 {
+  font-size: 2.6em;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 2em;
+}
+h3 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+a {
+  color: #77A0B8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+code {
+  color: red;
+}
+/*Global classes*/
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+.cr {
+  clear: right;
+}
+.cl {
+  clear: left;
+}
+.cb {
+  clear: both;
+}
+.box {
+  border-radius: .3em;
+  box-sizing: border-box;
+  border: 4px solid #999;
+  padding: 20px;
+  background: #E6E3D4;
+}
+
+
+
+//
+//      END OF LYNDA.com STYLES
+//

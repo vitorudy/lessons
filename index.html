@@ -10,28 +10,22 @@
 <template name="layout">
   {{> yield 'header'}}
   {{> yield}}
-  {{> yield 'footer'}}
+  {{! > yield 'footer'}}
 </template>
 
 
 <template name="home">
-  <h1>Home</h1>
-  {{> flexBoxWrap}} 
+  <h1>Homeee</h1>
+  <p>wazup mudafaka</p>
+  {{! > flexBoxWrap}} 
 </template>
 
-<template name="features">
-  <h1>Features</h1>
+<template name="Flex">
+  {{> flexBox}}
 </template>
 
-<template name="contact">
-  <h1>Contact</h1>
-  {{> contacts2}}
+<template name="CSS">
+  <h1>CSS transition lessson</h1>
+  {{> cssTransitions}}
 </template>
 
-<template name="myHeader">
-  <h1>My Header</h1>  
-</template>
-
-<template name="myFooter">
-  <h1>My Footer</h1>  
-</template>

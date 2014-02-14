@@ -13,15 +13,22 @@ Router.map(function () {
     template: 'home'
   });
 
-  this.route('features', {
-    path: '/features',
-    template: 'features'
+  this.route('FlexWrap', {
+    path: '/flex-wrap',
+    template: 'Flex'
   });
 
-  this.route('contact', {
-    path: '/contact',
-    template: 'contact'
+  this.route('cssTransition', {
+    path: '/CSS-transitions',
+    template: 'CSS'
   });
+
+  this.route('LESSlessons', {
+    path:'/LESS-lessons',
+    template: 'LESSlessons'
+  })
+ 
+
 
 });
 
