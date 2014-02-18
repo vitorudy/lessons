@@ -7,3 +7,38 @@
 .titi {
   color:red;
 }
+
+.animal {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.bear {
+  &:extend(.animal);
+  background-color: brown;
+}
+
+.menu {
+  &:extend(.highlited);
+  font-size: 12px;
+  font-family:Arial;
+  .highlighted {
+    font-weight: bold;
+    color:brown;
+  }
+}
+
+// Kuo skiriasi sitie uzrasymai ???????????
+
+.menu {
+  font-size: 12px;
+  font-family:Arial;
+}
+
+ .highlighted {
+  &:extend(.menu);
+    font-weight: bold;
+    color:brown;
+  }
