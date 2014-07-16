@@ -25,7 +25,7 @@ Router.map(function () {
 
   this.route('LESSlessons', {
     path:'/LESS-lessons',
-    template: 'LESSlessons'
+    template: 'LESS'
   })
  
 

@@ -27,7 +27,7 @@
 
 // Custom Flat Ui Colors
 @california-grapes: #BD4F7A;
-@lipstick #8C3557;
+@lipstick: #8C3557;
 
 // Spark UI
 @light-heading: #C3C4C5;
